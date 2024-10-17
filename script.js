@@ -7,7 +7,7 @@ function geoFindMe() {
     mapLink.textContent = "";
 
     function adicionaItem(value) {
-        var novoItem = document.createElement("li");
+        var novoItem = document.createElement("p");
         novoItem.textContent = value;
         lista.appendChild(novoItem);
     }
